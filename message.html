@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special birthday message">
+    <title>A Secret Message 💌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page2">
+
+    <main class="message-container">
+
+        <p class="small-title">
+            💕 A LITTLE SECRET FOR YOU 💕
+        </p>
+
+        <h1>
+            There's Something Inside...
+        </h1>
+
+        <!-- Clickable Envelope -->
+        <div
+            class="secret-envelope"
+            onclick="openEnvelope()"
+            role="button"
+            tabindex="0"
+            aria-label="Open secret birthday message"
+        >
+
+            <div class="envelope-back"></div>
+
+            <div class="envelope-paper">
+                <span>💖</span>
+            </div>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-flap"></div>
+
+            <div class="envelope-heart">
+                💌
+            </div>
+
+        </div>
+
+        <p id="envelope-hint">
+            Tap the envelope to open your secret message 💌
+        </p>
+
+
+        <!-- Secret Message -->
+        <div id="secret-message">
+
+            <div class="secret-card">
+
+                <div class="secret-icon">
+                    💖
+                </div>
+
+                <h2>
+                    Happy Birthday, Kiara Joy! 🎂
+                </h2>
+
+                <p>
+                    I hope today reminds you of how much
+                    happiness you bring to the people around you.
+                </p>
+
+                <p>
+                    May this new year of your life be filled with
+                    amazing memories, new adventures, and moments
+                    that make you genuinely happy.
+                </p>
+
+                <p>
+                    Keep chasing the things you love, keep believing
+                    in yourself, and never stop being the wonderful
+                    person that you are.
+                </p>
+
+                <p class="secret-highlight">
+                    You deserve a birthday filled with smiles,
+                    laughter, and lots of love. ❤️
+                </p>
+
+                <div class="secret-hearts">
+                    💕 ❤️ 💕 ❤️ 💕
+                </div>
+
+            </div>
+
+            <button
+                onclick="goToPage('surprise.html')"
+                class="birthday-btn"
+            >
+                There's One More Surprise 🎁
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
